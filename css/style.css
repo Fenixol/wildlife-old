@@ -47,7 +47,7 @@ header {
 }
 
 .header-section nav {
-  width: 45%;
+  width: 40%;
 }
 
 .top-menu,
@@ -137,7 +137,7 @@ header {
 }
 
 .survival {
-  width: 247px;
+  width: 280px;
   margin-top: 120px;
 }
 
@@ -158,7 +158,7 @@ header {
   font-size: 18px;
   line-height: 27px;
   color: #F7F7F7;
-  margin-bottom: 50px;
+  margin-bottom: 65px;
 }
 
 .survival .donate {
@@ -197,6 +197,7 @@ main h2 {
   text-align: center;
   color: #333333;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 main h3 {
@@ -207,6 +208,7 @@ main h3 {
   line-height: 40px;
   text-align: center;
   color: #333333;
+  margin-bottom: 60px;
 }
 
 main .sh-2 {
@@ -230,6 +232,7 @@ main .slider {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 120px;
+  margin-bottom: 90px;
 }
 
 main .slider a.next,
@@ -257,7 +260,7 @@ main .slider ul li {
 
 main .slider ul li .slide-content {
   position: absolute;
-  bottom: 40px;
+  bottom: 45px;
   width: 100%;
   color: #F7F7F7;
 }
@@ -268,7 +271,7 @@ main .slider ul li .slide-content h4 {
   font-weight: normal;
   font-size: 22px;
   line-height: 36px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 main .slider ul li .slide-content small {
@@ -317,7 +320,7 @@ main .get-notified input[type="submit" i]:hover {
 
 main .get-notified input[type="text" i] {
   border-color: #666666;
-  width: 540px;
+  width: 515px;
   padding: 0 10px;
   height: 58px;
   background: transparent;
@@ -349,7 +352,11 @@ footer .row {
 }
 
 footer nav {
-  width: 45%;
+  width: 42%;
+}
+
+footer nav ul {
+  padding-left: 30px;
 }
 
 footer .wrapper {
