@@ -73,8 +73,19 @@ header {
   text-decoration: none;
 }
 
-.top-menu button,
-.bottom-menu button {
+.top-menu a:hover,
+.bottom-menu a:hover {
+  color: #CD6326;
+}
+
+.top-menu svg:hover,
+.bottom-menu svg:hover {
+  stroke: #CD6326;
+  fill: #CD6326;
+}
+
+.top-menu .btn-login,
+.bottom-menu .btn-login {
   border: 2px solid #CD6326;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -94,6 +105,12 @@ header {
   color: #F7F7F7;
   background: none;
   padding: 10px 23px;
+}
+
+.top-menu .btn-login:hover,
+.bottom-menu .btn-login:hover {
+  background: #CD6326;
+  color: #F7F7F7;
 }
 
 .logo {
@@ -141,9 +158,10 @@ header {
   font-size: 18px;
   line-height: 27px;
   color: #F7F7F7;
+  margin-bottom: 50px;
 }
 
-.survival button {
+.survival .donate {
   background: #CD6326;
   border-radius: 5px;
   font-family: Roboto;
@@ -154,6 +172,11 @@ header {
   text-align: center;
   color: #F7F7F7;
   padding: 16px 42px;
+  text-decoration: none;
+}
+
+.survival .donate:hover {
+  background: #E39128;
 }
 
 main {
@@ -215,6 +238,11 @@ main .slider a.back {
   margin-right: 30px;
 }
 
+main .slider svg:hover {
+  stroke: #CD6326;
+  fill: #CD6326;
+}
+
 main .slider ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,6 +252,31 @@ main .slider ul {
 main .slider ul li {
   margin-left: 30px;
   margin-right: 30px;
+  position: relative;
+}
+
+main .slider ul li .slide-content {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  color: #F7F7F7;
+}
+
+main .slider ul li .slide-content h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 0px;
+}
+
+main .slider ul li .slide-content small {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
 }
 
 main .get-notified {
@@ -257,11 +310,25 @@ main .get-notified input[type="submit" i] {
   width: 120px;
 }
 
+main .get-notified input[type="submit" i]:hover {
+  background: #E39128;
+  border-color: #E39128;
+}
+
 main .get-notified input[type="text" i] {
   border-color: #666666;
   width: 540px;
   padding: 0 10px;
-  height: 56px;
+  height: 58px;
+  background: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  border: 1px solid #666666;
+  border-right: none;
+  border-left-color: #666666;
 }
 
 footer {
@@ -290,5 +357,23 @@ footer .wrapper {
 }
 
 footer .social-list li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: 25px;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .social-list li svg {
+  fill: #134731;
 }
